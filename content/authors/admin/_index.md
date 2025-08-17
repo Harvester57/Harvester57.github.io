@@ -41,7 +41,7 @@ profiles:
     url: https://www.linkedin.com/in/fstosse/en
   - icon: academicons/google-scholar
     url: https://scholar.google.fr/citations?user=npZjhNgAAAAJ
-  - icon: academicons/CV
+  - icon: academicons/cv
     url: https://me.harvester.fr/cv.pdf
 
 interests:
