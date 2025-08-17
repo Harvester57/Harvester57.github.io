@@ -83,15 +83,15 @@ work:
     company_logo: ''
     date_start: 2019-06-01
     date_end: 2024-12-31
-    summary: ''
-      # - Hardening of embedded Windows 7 & 10 platforms
-      # - Vulnerability and compliance scans with Nessus
-      # - Development, test and integration of new security solutions and architecture
-      # - Technical referent on Operating Systems and Security matters
-      # - Level 3 support on Operating Systems and Security matters
-      # - Security tools integration in CI/CD pipelines
-      # - Static analysis
-      # - Compilers build configurations hardening (e.g. sanitizers, stack canaries, CFG)
+    summary: |
+      - Hardening of embedded Windows 7 & 10 platforms
+      - Vulnerability and compliance scans with Nessus
+      - Development, test and integration of new security solutions and architecture
+      - Technical referent on Operating Systems and Security matters
+      - Level 3 support on Operating Systems and Security matters
+      - Security tools integration in CI/CD pipelines
+      - Static analysis
+      - Compilers build configurations hardening (e.g. sanitizers, stack canaries, CFG)
 
 languages:
   - name: French
