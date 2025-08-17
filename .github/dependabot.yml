@@ -1,11 +1,37 @@
 version: 2
 updates:
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: daily
+- package-ecosystem: "github-actions"
+  directory: "/"
+  commit-message:
+    prefix: "actions"
+  labels: [ 'github_actions' ]
+  assignees:
+  - "Harvester57"
+  schedule:
+    interval: "cron"
+    cronjob: "0 7 * * *"
+    timezone: "Europe/Paris"
+  groups:
+    actions-dependencies:
+      applies-to: version-updates
+      patterns:
+      - "*"
 
-  - package-ecosystem: gomod
-    directory: /
-    schedule:
-      interval: daily
+- package-ecosystem: "gomod"
+  directory: "/"
+  commit-message:
+    prefix: "go"
+  labels: [ 'chore' ]
+  assignees:
+  - "Harvester57"
+  schedule:
+    interval: "cron"
+    cronjob: "0 7 * * *"
+    timezone: "Europe/Paris"
+  groups:
+    go-dependencies:
+      applies-to: version-updates
+      patterns:
+      - "*"
+  allow:
+  - dependency-type: all
