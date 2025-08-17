@@ -3,7 +3,7 @@
 title: Florian Stosse
 
 # Name pronunciation (optional)
-name_pronunciation:
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Florian
@@ -41,8 +41,8 @@ profiles:
     url: https://www.linkedin.com/in/fstosse/en
   - icon: academicons/google-scholar
     url: https://scholar.google.fr/citations?user=npZjhNgAAAAJ
-  - icon: academicons/cv
-    url: https://me.harvester.fr/cv.pdf
+  # - icon: academicons/cv
+  #   url: https://me.harvester.fr/cv.pdf
 
 interests:
   - Cybersecurity
@@ -52,7 +52,7 @@ education:
   - area: M.Sc. in Information Security
     institution: ESIEA, Paris, France
     date_start: 2015-09-01
-    date_end: 2018-06-31
+    date_end: 2018-06-30
     summary: |
       Graduated summa cum laude, with jury honors.
       Thesis subject: "Autonomous vehicles security"
@@ -60,8 +60,8 @@ education:
   - area: Associate's degree in Computer Science
     institution: University of Lorraine, Metz, France
     date_start: 2012-09-01
-    date_end: 2014-06-31
-    summary:
+    date_end: 2014-06-30
+    summary: ''
 work:
   - position: Cybersecurity engineer
     company_name: European Space Agency

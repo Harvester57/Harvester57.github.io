@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
+title: Florian Stosse
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://me.harvester.fr/'
 
 ############################
 ## LANGUAGE
@@ -30,13 +30,13 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+ignoreFiles: [ \.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$ ]
 permalinks:
   authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
-  section: [HTML, RSS]
+  home: [ HTML, RSS, headers, redirects, backlinks ]
+  section: [ HTML, RSS ]
 imaging:
   resampleFilter: lanczos
   quality: 80
