@@ -154,7 +154,7 @@ Unfortunately, we had to put a stop to the thesis, but hey, that’s life !
 
 ### Education
 
-I graduated with a M.Sc in Information Security from ESIEA Paris (a top French engineering school, part of the "Grandes Ecoles") in August 2018. During my graduate studies, I was an apprentice at Bureau Veritas’ R&D center in La Défense, Paris.
+I graduated with a M.Sc in Information Security from ESIEA Paris (a top French engineering school, part of the ["Grandes écoles"](https://en.wikipedia.org/wiki/Grande_%C3%A9cole)) in August 2018. During my graduate studies, I was an apprentice at Bureau Veritas’ R&D center in La Défense, Paris.
 
 I worked in the RAMS department, and my main areas of work were:
 
