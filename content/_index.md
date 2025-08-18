@@ -27,6 +27,7 @@ sections:
           position: center
           parallax: false
   - block: resume-experience
+    id: experience
     content:
       username: admin
     design:
@@ -34,10 +35,6 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
   - block: collection
     id: papers
     content:
@@ -59,16 +56,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 1
   - block: collection
     id: news
     content:

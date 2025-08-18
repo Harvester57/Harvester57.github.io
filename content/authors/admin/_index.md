@@ -24,8 +24,8 @@ role: Cybersecurity engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: European Space Agency
-    url: https://www.esa.int/
+  - name: European Space Agency - Galileo
+    url: https://www.esa.int/Applications/Satellite_navigation/Galileo/What_is_Galileo
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -47,6 +47,7 @@ profiles:
 interests:
   - Cybersecurity
   - CI/CD / DevSecOps
+  - Windows security & hardening
 
 education:
   - area: M.Sc. in Information Security
@@ -55,8 +56,10 @@ education:
     date_end: 2018-06-30
     summary: |
       Graduated summa cum laude, with jury honors.
+
       Thesis subject: "Autonomous vehicles security"
-      Security engineering program labelled by ANSSI (National Cybersecurity Agency of France): https://cyber.gouv.fr/formations/ingenieur-diplome-de-lesiea-majeure-cybersecurite-en-formation-initiale-sous-statut
+
+      Security engineering program certified by ANSSI (National Cybersecurity Agency of France): https://cyber.gouv.fr/formations/ingenieur-diplome-de-lesiea-majeure-cybersecurite-en-formation-initiale-sous-statut
   - area: Associate's degree in Computer Science
     institution: University of Lorraine, Metz, France
     date_start: 2012-09-01
@@ -135,15 +138,21 @@ languages:
 
 Hi, I’m Florian Stosse, just another information security engineer !
 
-I currently work at the European Space Agency, as a cybersecurity engineer for the Galileo programme, specifically for the Ground Mission Segment (GMS).
+### Current work
 
-I previously worked at Safran Data Systems (a Safran Electronics & Defense subsidiary), in the Space & Communications business unit. I focused on hardening and securing our embedded Windows 7 and 10/11 platforms, among other cool things :)
+I currently work at the [European Space Agency](https://www.esa.int/), as a cybersecurity engineer for the Galileo programme, specifically for the [Galileo Mission Segment (GMS)](https://gssc.esa.int/navipedia/index.php/Galileo_Ground_Segment#Galileo_Mission_Segment_(GMS)).
 
-Before that, in October 2018, I started a PhD thesis at CEA-List and ANSSI to work on formal methods applied to software security. More specifically, I was working on software defenses and hardening against hardware vulnerabilities, such as Spectre and Meltdown, using sound static analysis tools ( Frama-C in particular).
+### Experience
 
-My thesis was under the supervision of Julien Signoles (CEA), and my advisors were Patricia Mouy (ANSSI) and Florent Kirchner (CEA).
+I previously worked at [Safran Data Systems](https://www.safran-group.com/companies/safran-data-systems), in the Space & Communications business unit. I focused on hardening and securing our embedded Windows 7 and 10/11 platforms (Cortex family of TT&C and high data rate receivers), among other cool things :)
+
+Before that, in October 2018, I started a PhD thesis at CEA-List and ANSSI to work on formal methods applied to software security. More specifically, I was working on software defenses and hardening against hardware vulnerabilities, such as Spectre and Meltdown, using sound static analysis tools ([Frama-C](https://frama-c.com/) in particular).
+
+My thesis was under the supervision of [Julien Signoles](https://julien-signoles.fr/) (CEA), and my advisors were [Patricia Mouy](https://fr.linkedin.com/in/patricia-mouy-080a386) (ANSSI) and [Florent Kirchner](https://fr.linkedin.com/in/fkirchner) (CEA).
 
 Unfortunately, we had to put a stop to the thesis, but hey, that’s life !
+
+### Education
 
 I graduated with a M.Sc in Information Security from ESIEA Paris (a top French engineering school, part of the "Grandes Ecoles") in August 2018. During my graduate studies, I was an apprentice at Bureau Veritas’ R&D center in La Défense, Paris.
 
