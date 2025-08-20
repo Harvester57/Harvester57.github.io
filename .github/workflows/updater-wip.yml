@@ -17,7 +17,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: HugoBlox/gh-action-updater@ce13dc55669dd168f1e4258cfc501d2edc2f6c18 # v1.2.2
+      - uses: HugoBlox/gh-action-updater@a781ff6f29558eeeec91efce7a92f9ee04a07f9c # v2.1.0
         with:
           feed-url: https://hugoblox.com/rss.xml
           readme-section: news
