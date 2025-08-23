@@ -39,6 +39,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
+      - name: Upgrade NPM
+        run: npm install -g npm@latest    
+
       - name: Build
         run: hugo --minify --logLevel debug --gc --enableGitInfo
 
