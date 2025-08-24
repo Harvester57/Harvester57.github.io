@@ -26,6 +26,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Setup pnpm
+        if: hashFiles('package.json') != ''
+        uses: pnpm/action-setup@v4
+
+      - name: Install dependencies
+        run: |
+          # Install Tailwind CLI if package.json exists
+          if [ -f "package.json" ]; then
+            echo "Installing Tailwind dependencies..."
+            pnpm install || npm install
+          fi
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
         with:
@@ -34,14 +50,13 @@ jobs:
 
       - uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.2.4
         with:
-          path: /home/runner/.cache/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          path: |
+            /tmp/hugo_cache_runner/
+            node_modules/
+            modules/*/node_modules/
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod', '**/package-lock.json', '**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: latest 
 
       - name: Build
         run: hugo --minify --logLevel debug --gc --enableGitInfo
