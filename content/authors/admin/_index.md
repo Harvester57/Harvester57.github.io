@@ -87,14 +87,25 @@ work:
     date_start: 2019-06-01
     date_end: 2024-12-31
     summary: |
-      - Hardening of embedded Windows 7 & 10 platforms
-      - Vulnerability and compliance scans with Nessus
-      - Development, test and integration of new security solutions and architecture
-      - Technical referent on Operating Systems and Security matters
-      - Level 3 support on Operating Systems and Security matters
-      - Security tools integration in CI/CD pipelines
-      - Static analysis
-      - Compilers build configurations hardening (e.g. sanitizers, stack canaries, CFG)
+      Security expertise for the « Space & Communications » business unit at Safran Data Systems, subsidiary of Safran Electronics & Defense.
+
+      ➤ Hardening of embedded Windows 7 & 10 platforms
+        • Advanced security functions : Windows Defender, Device Guard (KMCI/UMCI/HVCI), Secure Boot, Exploit Protection profile, Windows Firewall, ...
+        • Local GPO hardening: DISA STIG / CIS / DGA-MI policies, custom ADMX template for network and system hardening
+        • Systems security maintenance: Windows 7 & 10 monthly patches follow-up, firmwares and drivers revisions follow-up
+        • Vulnerability and compliance scans with Nessus
+
+      ➤ Development, test and integration of new security functions and architectures
+        • Discrete TPM test & integration for several hardware platforms
+        • Data-in-transit protection mechanisms (Stunnel, dynamic IPsec tunnels with Windows Firewall Security Connections profiles)
+        • Data-at-rest protection with TPM and pre-boot authentication
+        • Strongly isolated containers deployment (with Hyper-V)
+
+      ➤ Level 3 support on Operating Systems and Security matters
+        • Technical referent on Operating Systems and Security matters
+        • Participation to pre-sales and bid offers redaction with the commercial team
+        • Security compliance matrix redaction
+        • User manuals & procedures redaction
 
 languages:
   - name: French
