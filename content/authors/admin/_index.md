@@ -50,7 +50,7 @@ interests:
   - Windows security & hardening
 
 education:
-  - area: M.Sc. in Computer Science
+  - area: Master of Science - Computer Science
     institution: ESIEA, Paris, France
     date_start: 2015-09-01
     date_end: 2018-06-30
@@ -62,7 +62,7 @@ education:
       Security engineering program certified by ANSSI (National Cybersecurity Agency of France): https://cyber.gouv.fr/formations/ingenieur-diplome-de-lesiea-majeure-cybersecurite-en-formation-initiale-sous-statut
 
       Final thesis subject: « Autonomous vehicles security ». This thesis was done in the framework of the SESNA project, in partnership with Bureau Veritas, CEA-List, RATP Group, EasyMile, Sherpa Engineering and BMCP. The goal of the project was to deploy an autonomous shuttle at CEA Paris-Saclay, and to study its robustness from RAMS and cybersecurity perspectives.
-  - area: Associate's degree in Computer Science
+  - area: Associate's degree - Computer Science
     institution: University of Lorraine, Metz, France
     date_start: 2012-09-01
     date_end: 2014-06-30
