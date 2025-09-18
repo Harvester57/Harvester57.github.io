@@ -153,7 +153,7 @@ Hi, I’m Florian Stosse, just another information security engineer !
 
 I currently work at the [European Space Agency](https://www.esa.int/), as a cybersecurity engineer for the Galileo programme, specifically for the [Galileo Mission Segment (GMS)](https://gssc.esa.int/navipedia/index.php/Galileo_Ground_Segment#Galileo_Mission_Segment_(GMS)).
 
-### Experience
+### Experience summary
 
 I previously worked at [Safran Data Systems](https://www.safran-group.com/companies/safran-data-systems), in the Space & Communications business unit. I focused on hardening and securing our embedded Windows 7 and 10/11 platforms (Cortex family of TT&C and high data rate receivers), among other cool things :)
 
@@ -163,9 +163,9 @@ My thesis was under the supervision of [Julien Signoles](https://julien-signoles
 
 Unfortunately, we had to put a stop to the thesis, but hey, that’s life !
 
-### Education
+### Education summary
 
-I graduated with a M.Sc in Information Security from ESIEA Paris (a top French engineering school, part of the ["Grandes écoles"](https://en.wikipedia.org/wiki/Grande_%C3%A9cole)) in August 2018. During my graduate studies, I was an apprentice at Bureau Veritas’ R&D center in La Défense, Paris.
+I graduated with a M.Sc in Computer Science (major in cybersecurity, minor in embedded systems) from ESIEA Paris (a top French engineering school, part of the ["Grandes écoles"](https://en.wikipedia.org/wiki/Grande_%C3%A9cole)) in August 2018. During my graduate studies, I was an apprentice at Bureau Veritas’ R&D center in La Défense, Paris.
 
 I worked in the RAMS department, and my main areas of work were:
 
