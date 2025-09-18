@@ -59,9 +59,9 @@ education:
 
       Major in cybersecurity, minor in embedded systems.
 
-      Thesis subject: "Autonomous vehicles security". This thesis was done in the framework of the SESNA project, in partnership with Bureau Veritas, CEA-List, RATP Group, EasyMile, Sherpa Engineering and BMCP. The goal of the project was to deploy an autonomous shuttle at CEA Paris-Saclay, and to study its robustness from RAMS and cybersecurity perspectives.
-
       Security engineering program certified by ANSSI (National Cybersecurity Agency of France): https://cyber.gouv.fr/formations/ingenieur-diplome-de-lesiea-majeure-cybersecurite-en-formation-initiale-sous-statut
+
+      Final thesis subject: « Autonomous vehicles security ». This thesis was done in the framework of the SESNA project, in partnership with Bureau Veritas, CEA-List, RATP Group, EasyMile, Sherpa Engineering and BMCP. The goal of the project was to deploy an autonomous shuttle at CEA Paris-Saclay, and to study its robustness from RAMS and cybersecurity perspectives.
   - area: Associate's degree in Computer Science
     institution: University of Lorraine, Metz, France
     date_start: 2012-09-01
