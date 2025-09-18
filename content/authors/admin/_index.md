@@ -38,7 +38,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/Harvester57
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/fstosse/en
+    url: https://www.linkedin.com/in/fstosse/?locale=en_US
   - icon: academicons/google-scholar
     url: https://scholar.google.fr/citations?user=npZjhNgAAAAJ
   # - icon: academicons/cv
