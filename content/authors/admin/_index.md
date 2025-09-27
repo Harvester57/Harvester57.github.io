@@ -94,7 +94,7 @@ work:
       ➤ Hardening of embedded Windows 7 & 10 platforms
 
         - Advanced security functions : Windows Defender, Device Guard (KMCI/UMCI/HVCI), Secure Boot, Exploit Protection profile, Windows Firewall, ...
-        - Local GPO hardening: DISA STIG / CIS / DGA-MI policies, custom ADMX template for network and system hardening
+        - Local GPO hardening: DISA STIG / CIS / DGA-MI policies, [custom ADMX template for network and system hardening](https://github.com/Harvester57/Security-ADMX)
         - Systems security maintenance: Windows 7 & 10 monthly patches follow-up, firmwares and drivers revisions follow-up
         - Vulnerability and compliance scans with Nessus
 
