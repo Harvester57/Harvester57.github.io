@@ -19,3 +19,7 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
