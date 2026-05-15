@@ -1,0 +1,153 @@
+"schema": "hugoblox/author/v1"
+"slug": "me"
+"name":
+  "display": "Florian Stosse"
+  "given": "Florian"
+  "family": "Stosse"
+"is_owner": true
+"status":
+  "icon": "🚀"
+"role": "Cybersecurity engineer"
+"bio": "## About Me
+
+
+  Hi, I’m Florian Stosse, just another information security engineer !
+
+
+  ### Current work
+
+
+  I currently work at the [European Space Agency](https://www.esa.int/), as a cybersecurity engineer for the Galileo programme, specifically for the [Galileo Mission Segment (GMS)](https://gssc.esa.int/navipedia/index.php/Galileo_Ground_Segment#Galileo_Mission_Segment_(GMS)).
+
+
+  ### Experience summary
+
+
+  I previously worked at [Safran Data Systems](https://www.safran-group.com/companies/safran-data-systems), in the Space & Communications business unit. I focused on hardening and securing our embedded Windows 7 and 10/11 platforms (Cortex family of TT&C and high data rate receivers), among other cool things :)
+
+
+  Before that, in October 2018, I started a PhD thesis at CEA-List and ANSSI to work on formal methods applied to software security. More specifically, I was working on software defenses and hardening against hardware vulnerabilities, such as Spectre and Meltdown, using sound static analysis tools ([Frama-C](https://frama-c.com/) in particular).
+
+
+  My thesis was under the supervision of [Julien Signoles](https://julien-signoles.fr/) (CEA), and my advisors were [Patricia Mouy](https://fr.linkedin.com/in/patricia-mouy-080a386) (ANSSI) and [Florent Kirchner](https://fr.linkedin.com/in/fkirchner) (CEA).
+
+
+  Unfortunately, we had to put a stop to the thesis, but hey, that’s life !
+
+
+  ### Education summary
+
+
+  I graduated with a M.Sc in Computer Science (major in cybersecurity, minor in embedded systems) from ESIEA Paris (a top French engineering school, part of the [\"Grandes écoles\"](https://en.wikipedia.org/wiki/Grande_%C3%A9cole)) in August 2018. During my graduate studies, I was an apprentice at Bureau Veritas’ R&D center in La Défense, Paris.
+
+
+  I worked in the RAMS department, and my main areas of work were:
+
+
+  - software security (e.g. static analysis, SDLC),
+
+  - connected/autonomous vehicles security (e.g. ISO 21434 for automotive security engineering),
+
+  - and industrial systems security (e.g. ISO 62443 certification).
+
+
+  Do not hesitate to get in touch if you want to chat about these topics (or anything else, really) !"
+"affiliations":
+  - "name": "European Space Agency - Galileo"
+    "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/What_is_Galileo"
+"ids":
+  "google_scholar": "npZjhNgAAAAJ"
+"links":
+  - "icon": "at-symbol"
+    "url": "mailto:florian.stosse@harvester.fr"
+    "label": "E-mail"
+  - "icon": "brands/x"
+    "url": "https://twitter.com/Harvesterify"
+  - "icon": "brands/github"
+    "url": "https://github.com/Harvester57"
+  - "icon": "brands/linkedin"
+    "url": "https://www.linkedin.com/in/fstosse/?locale=en_US"
+  - "icon": "academicons/google-scholar"
+    "url": "https://scholar.google.fr/citations?user=npZjhNgAAAAJ"
+"interests":
+  - "Cybersecurity"
+  - "CI/CD / DevSecOps"
+  - "Windows security & hardening"
+"education":
+  - "institution": "ESIEA, Paris, France"
+    "degree": "Master of Science - Computer Science"
+    "start": "2015-09-01"
+    "end": "2018-06-30"
+    "summary": "Graduated summa cum laude, with jury honors.
+
+
+      Major in cybersecurity, minor in embedded systems.
+
+
+      Security engineering program certified by ANSSI (National Cybersecurity Agency of France): https://cyber.gouv.fr/formations/ingenieur-diplome-de-lesiea-majeure-cybersecurite-en-formation-initiale-sous-statut
+
+
+      Final thesis subject: « Autonomous vehicles security ». This thesis was done in the framework of the SESNA project, in partnership with Bureau Veritas, CEA-List, RATP Group, EasyMile, Sherpa Engineering and BMCP. The goal of the project was to deploy an autonomous shuttle at CEA Paris-Saclay, and to study its robustness from RAMS and cybersecurity perspectives."
+  - "institution": "University of Lorraine, Metz, France"
+    "degree": "Associate's degree - Computer Science"
+    "start": "2012-09-01"
+    "end": "2014-06-30"
+"experience":
+  - "role": "Cybersecurity engineer"
+    "org": "European Space Agency"
+    "start": "2024-01-01"
+    "summary": "Ground segment security for the Galileo programme"
+  - "role": "Independent expert - Cybersecurity"
+    "org": "France 2030 investment program"
+    "start": "2023-12-01"
+    "summary": "Cybersecurity expertise for the France 2030 investment program"
+  - "role": "Cybersecurity engineer"
+    "org": "Safran Data Systems"
+    "start": "2019-06-01"
+    "end": "2024-12-31"
+    "summary": "Security expertise for the « Space & Communications » business unit at Safran Data Systems, subsidiary of Safran Electronics & Defense.
+
+
+      ➤ Hardening of embedded Windows 7 & 10 platforms
+
+
+      \  - Advanced security functions : Windows Defender, Device Guard (KMCI/UMCI/HVCI), Secure Boot, Exploit Protection profile, Windows Firewall, ...
+
+      \  - Local GPO hardening: DISA STIG / CIS / DGA-MI policies, [custom ADMX template for network and system hardening](https://github.com/Harvester57/Security-ADMX)
+
+      \  - Systems security maintenance: Windows 7 & 10 monthly patches follow-up, firmwares and drivers revisions follow-up
+
+      \  - Vulnerability and compliance scans with Nessus
+
+
+      ➤ Development, test and integration of new security functions and architectures
+
+
+      \  - Discrete TPM test & integration for several hardware platforms
+
+      \  - Data-in-transit protection mechanisms (Stunnel, dynamic IPsec tunnels with Windows Firewall Security Connections profiles)
+
+      \  - Data-at-rest protection with TPM and pre-boot authentication
+
+      \  - Strongly isolated containers deployment (with Hyper-V)
+
+
+      ➤ Level 3 support on Operating Systems and Security matters
+
+
+      \  - Technical referent on Operating Systems and Security matters
+
+      \  - Participation to pre-sales and bid offers redaction with the commercial team
+
+      \  - Security compliance matrix redaction
+
+      \  - User manuals & procedures redaction"
+"languages":
+  - "name": "French"
+    "level": 5
+    "percent": 100
+    "label": "Native"
+  - "name": "English"
+    "level": 5
+    "percent": 90
+    "label": "C2"
