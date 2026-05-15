@@ -35,3 +35,8 @@ updates:
       - "*"
   allow:
   - dependency-type: all
+
+- package-ecosystem: npm
+  directory: /
+  schedule:
+    interval: daily
