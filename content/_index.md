@@ -12,7 +12,7 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+      username: me
       text: ""
     design:
       spacing:
@@ -30,7 +30,7 @@ sections:
   - block: resume-experience
     id: experience
     content:
-      username: admin
+      username: me
     design:
       # Hugo date format
       date_format: 'January 2006'
