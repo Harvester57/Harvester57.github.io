@@ -19,42 +19,48 @@ permissions:
   contents: write
   pull-requests: write
 
+# Prevent duplicate upgrade runs
+concurrency:
+  group: upgrade-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   upgrade:
     name: Upgrade
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    timeout-minutes: 15
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
         with:
-          version: latest
+          node-version: '22'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          package_json_path: ./package.json
           run_install: false
 
-      - uses: actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c # v6.4.0
+      - name: Setup Go
+        uses: actions/setup-go@v6
         with:
-          go-version: 'stable' # Latest stable version
-          check-latest: true # Always check for the latest patch release
-
-      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
-        with:
-          node-version: 'latest'
+          go-version: '1.23'
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3.2.1
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
 
       - name: Run Upgrade CLI
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Use manual input or default to stable for scheduled runs
           VERSION_TYPE: ${{ inputs.version_type || 'Stable' }}
         run: |
@@ -67,8 +73,9 @@ jobs:
           echo "Running upgrade with flags: $FLAGS"
           pnpm dlx hugoblox@latest upgrade $FLAGS
 
+
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore(deps): upgrade hugoblox modules"
@@ -83,7 +90,7 @@ jobs:
             **Verification:**
             - [ ] Check the Deploy Preview to ensure everything looks correct.
             - [ ] Merge this PR to apply the updates.
-          branch: "chore/upgrade-hugoblox"
+          branch: "chore/upgrade-hugoblox-${{ github.run_id }}"
           delete-branch: true
           base: main
           labels: |
