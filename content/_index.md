@@ -47,6 +47,18 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: collection
+    id: project
+    content:
+      title: Personal projects
+      text: Here are a selection of projects that I am currently working on (sorry for the AI-slop pictures, I'm very bad at designing cute stuff).
+      count: 0
+      filters:
+        folders:
+          - project
+    design:
+      view: article-grid
+      columns: 4
   # - block: collection
   #   id: talks
   #   content:
