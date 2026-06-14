@@ -84,10 +84,10 @@
     Major in cybersecurity, minor in embedded systems.
 
 
-    Security engineering program certified by ANSSI (National Cybersecurity Agency of France): https://cyber.gouv.fr/formations/ingenieur-diplome-de-lesiea-majeure-cybersecurite-en-formation-initiale-sous-statut
+    Security engineering program [certified by ANSSI (National Cybersecurity Agency of France)](https://cyber.gouv.fr/offre-de-service/formations-entrainement-et-decouverte-des-metiers/formations/formation-labellisees-par-lanssi/formation-secnumedu/#:~:text=Ing%C3%A9nieur%20dipl%C3%B4m%C3%A9%20de%20l%27ESIEA%2C%20majeure%20cybers%C3%A9curit%C3%A9%2C%20en%20formation%20initiale%20sous%20statut%20d%27apprenti%2C%20sur%20le%20site%20de%20Paris).
 
 
-    Final thesis subject: « Autonomous vehicles security ». This thesis was done in the framework of the SESNA project, in partnership with Bureau Veritas, CEA-List, RATP Group, EasyMile, Sherpa Engineering and BMCP. The goal of the project was to deploy an autonomous shuttle at CEA Paris-Saclay, and to study its robustness from RAMS and cybersecurity perspectives."
+    Final thesis subject: « Autonomous vehicles security ». This thesis was done in the framework of the [SESNA project](https://www.avairx.com/en/safety-and-security-of-autonomous-transport-systems/cea-sesna.html), in partnership with Bureau Veritas, CEA-List, RATP Group, EasyMile, Sherpa Engineering and BMCP. The goal of the project was to deploy an autonomous shuttle at CEA Paris-Saclay, and to study its robustness from RAMS and cybersecurity perspectives."
 - "institution": "University of Lorraine, Metz, France"
   "degree": "Associate's degree - Computer Science"
   "start": "2012-09-01"
@@ -96,7 +96,9 @@
 - "role": "Cybersecurity engineer"
   "org": "European Space Agency"
   "start": "2024-01-01"
-  "summary": "Ground segment security for the Galileo programme"
+  "summary": "Ground segment security for the Galileo programme
+  
+  Cybersecurity Subject Matter Expert for the R&T project [Horizon Europe 034 (Advanced Platform-oriented Ground Infrastructure)](https://esastar-publication-ext.sso.esa.int/ESATenderActions/details/157410) aiming at developing the next-generation Ground Segment for Galileo, LEO-PNT (Celeste) and other sovereign European space programs."
 - "role": "Independent expert - Cybersecurity"
   "org": "France 2030 investment program"
   "start": "2023-12-01"
@@ -105,43 +107,78 @@
   "org": "Safran Data Systems"
   "start": "2019-06-01"
   "end": "2024-12-31"
-  "summary": "Security expertise for the « Space & Communications » business unit at Safran Data Systems, subsidiary of Safran Electronics & Defense.
+  "summary": "Security engineering for the « Space & Communications » business unit at Safran Data Systems (subsidiary of Safran Electronics & Defense).
 
 
-    ➤ Hardening of embedded Windows 7 & 10 platforms
+    ➤ Hardening of embedded Windows platforms (7 & 10/11)
 
 
-    \  - Advanced security functions : Windows Defender, Device Guard (KMCI/UMCI/HVCI), Secure Boot, Exploit Protection profile, Windows Firewall, ...
+    \  - Configuration of advanced OS security features (Device Guard KMCI/UMCI/HVCI, Secure Boot, Defender, Exploit Protection, Windows Firewall)
 
-    \  - Local GPO hardening: DISA STIG / CIS / DGA-MI policies, [custom ADMX template for network and system hardening](https://github.com/Harvester57/Security-ADMX)
+    \  - GPO hardening based on DISA STIG, CIS, and DGA-MI baselines using a [custom ADMX template](/project/security-admx/)
 
-    \  - Systems security maintenance: Windows 7 & 10 monthly patches follow-up, firmwares and drivers revisions follow-up
-
-    \  - Vulnerability and compliance scans with Nessus
+    \  - Systems maintenance (patch management, firmware updates) and Nessus compliance/vulnerability scanning
 
 
-    ➤ Development, test and integration of new security functions and architectures
+    ➤ Integration of advanced security functions & architectures
 
 
-    \  - Discrete TPM test & integration for several hardware platforms
+    \  - Implementation of discrete TPMs, data-at-rest protection (pre-boot authentication), and container isolation (Hyper-V)
 
-    \  - Data-in-transit protection mechanisms (Stunnel, dynamic IPsec tunnels with Windows Firewall Security Connections profiles)
-
-    \  - Data-at-rest protection with TPM and pre-boot authentication
-
-    \  - Strongly isolated containers deployment (with Hyper-V)
+    \  - Deployment of data-in-transit protection (Stunnel, dynamic IPsec tunnels)
 
 
-    ➤ Level 3 support on Operating Systems and Security matters
+    ➤ Technical leadership & expert support
 
 
-    \  - Technical referent on Operating Systems and Security matters
+    \  - Serving as technical referent on OS & security matters for internal and external stakeholders
 
-    \  - Participation to pre-sales and bid offers redaction with the commercial team
+    \  - Contribution to pre-sales, bid proposals, compliance matrices, security procedures, and user manuals"
+- "role": "PhD student / Software security expert"
+  "org": "ANSSI - National Cybersecurity Agency of France"
+  "start": "2018-10-01"
+  "end": "2019-03-01"
+  "summary": "Study of software countermeasures for microarchitectural hardware vulnerabilities (Spectre, Meltdown, ...)
 
-    \  - Security compliance matrix redaction
 
-    \  - User manuals & procedures redaction"
+    \  - State of the art of existing countermeasures (LFENCE, Speculative Load Hardening, ...)
+
+    \  - Study of impacts: generated code size, performance, residual risk, ...
+
+    \  - Proof of concept of a detection and remediation plug-in using static analysis for the Frama-C platform: detection of conditional branches vulnerable to Spectre v1 and automatic insertion of mitigation instructions
+
+    \  - Literature monitoring: research and reading of academic papers on software security, knowledge capitalization and dissemination to team members"
+- "role": "Cybersecurity engineer apprentice"
+  "org": "Bureau Veritas"
+  "start": "2015-09-01"
+  "end": "2018-09-01"
+  "summary": "Security activities in the RAMS department of the European Technical Center (R&D center) at Bureau Veritas.
+
+
+    ➤ Connected and autonomous vehicles security
+
+
+    \  - Co-writer of the BV-CARCYBERSEC-001 guidelines: « Cybersecurity for connected cars: best practices »
+
+    \  - Bureau Veritas representative at the ISO 21434 (« Automotive Cybersecurity Engineering ») Joint Working Group and French mirror group
+
+    \  - Cybersecurity and safety co-engineering process design for automotive manufacturers (based on SAE J3061 and ISO 26262)
+
+
+    ➤ Embedded (IoT) and industrial systems (SCADA/ICS) security
+
+
+    \  - IEC 62443 auditing and certification
+
+    \  - IoT products security assessment
+
+
+    ➤ Software security
+
+
+    \  - Static code analysis using Frama-C (developed by CEA-List)
+
+    \  - Co-writer of the BV-SW200 guidelines: « Cybersecurity Guidelines for Development & Assessment of Software »"
 "languages":
 - "name": "French"
   "level": 5
